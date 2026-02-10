@@ -1,0 +1,14 @@
+{
+  "name": "scaly",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "bun run --cwd apps/web dev",
+    "build:web": "bun run --cwd apps/web build",
+    "convex:dev": "bunx convex dev",
+    "convex:deploy": "bunx convex deploy"
+  }
+}
