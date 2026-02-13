@@ -7,8 +7,16 @@
   ],
   "scripts": {
     "dev:web": "bun run --cwd apps/web dev",
+    "dev:api": "bun run --cwd apps/api dev",
     "build:web": "bun run --cwd apps/web build",
     "convex:dev": "bunx convex dev",
     "convex:deploy": "bunx convex deploy"
+  },
+  "dependencies": {
+    "convex": "^1.16.0",
+    "currency-converter-lt": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2"
   }
 }
